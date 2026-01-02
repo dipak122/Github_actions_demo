@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello World
-        run: echo "Hello World! Dipak"
+        run: echo "Hello World!" & echo "hello man"
+        
