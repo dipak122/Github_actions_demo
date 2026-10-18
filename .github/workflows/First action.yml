@@ -12,3 +12,13 @@ jobs:
         run: |
           echo "Good bye"
           echo "Thanks you"
+  second-job:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Step1
+        run: echo "Step1"
+  third-job:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: 3rd job
+        run: echo "3rd job"
