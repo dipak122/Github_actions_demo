@@ -4,7 +4,11 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print
-        run: echo "hello first workflow"
+      - name: print hello
+        run: |
+          echo "hello first workflow"
+          echo "hello Dipak"
       - name : print goodbye
-        run: echo "Good bye"
+        run: |
+          echo "Good bye"
+          echo "Thanks you"
